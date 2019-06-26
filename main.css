@@ -4,6 +4,8 @@ html {box-sizing: border-box;}
 body {
     background: rgb(116, 161, 210);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1200px;
+    max-height: 1000px;
 }
 
 #wrapper {
@@ -15,23 +17,33 @@ body {
     justify-content: space-around;
 
 }
-.content-wrap {
-    float: right; 
-}
+
 
 input {
     display: flex;
     background: rgb(116, 161, 210);
     border: solid 1px white;
     line-height: 20px;
-    margin: 10px 10px;
+    margin: 5px 5px;
+    color: white;
+    outline: none;
+}
+
+input:focus {
+    border: 1px solid #555;
 }
 
 textarea {
     display: flex;
     background: rgb(116, 161, 210);
     border: solid 1px white;
-    margin: 10px 10px;
+    margin: 5px 5px;
+    color: white;
+    outline: none;
+}
+
+textarea:focus {
+    border: 1px solid #555;
 }
 
 select {
@@ -40,11 +52,27 @@ select {
     background: rgb(116, 161, 210);
     border: solid 1px white;
     width: 150px;
-    margin: 10px 10px;
+    margin: 5px 5px;
+    color: white;
+    outline: none;
+}
+
+select:focus {
+    border: 1px solid #555;
+}
+
+select > option {
+    color: white;
 }
 
 label {
     font-size: 10px;
     color: white;
     margin-left: 10px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+::option {
+    color: white;
 }
