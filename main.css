@@ -3,29 +3,48 @@ html {box-sizing: border-box;}
 
 body {
     background: rgb(116, 161, 210);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #wrapper {
     
-    
+}
+
+.flex-form {
+    display: flex;
+    justify-content: space-around;
+
+}
+.content-wrap {
+    float: right; 
 }
 
 input {
-    display: block;
+    display: flex;
     background: rgb(116, 161, 210);
     border: solid 1px white;
     line-height: 20px;
+    margin: 10px 10px;
 }
 
 textarea {
-    display: block;
+    display: flex;
     background: rgb(116, 161, 210);
     border: solid 1px white;
+    margin: 10px 10px;
 }
 
 select {
-    display: block;
+    display: flex;
+    justify-content: space-evenly;
     background: rgb(116, 161, 210);
     border: solid 1px white;
     width: 150px;
+    margin: 10px 10px;
+}
+
+label {
+    font-size: 10px;
+    color: white;
+    margin-left: 10px;
 }
