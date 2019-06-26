@@ -5,12 +5,27 @@ body {
     background: rgb(116, 161, 210);
 }
 
+#wrapper {
+    
+    
+}
+
 input {
+    display: block;
+    background: rgb(116, 161, 210);
+    border: solid 1px white;
+    line-height: 20px;
+}
+
+textarea {
+    display: block;
     background: rgb(116, 161, 210);
     border: solid 1px white;
 }
 
-textarea {
+select {
+    display: block;
     background: rgb(116, 161, 210);
     border: solid 1px white;
+    width: 150px;
 }
