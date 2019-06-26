@@ -1,0 +1,16 @@
+html {box-sizing: border-box;}
+*, *::before, *::after {box-sizing: inherit;}
+
+body {
+    background: rgb(116, 161, 210);
+}
+
+input {
+    background: rgb(116, 161, 210);
+    border: solid 1px white;
+}
+
+textarea {
+    background: rgb(116, 161, 210);
+    border: solid 1px white;
+}
