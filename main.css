@@ -6,9 +6,11 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     max-width: 1200px;
     max-height: 1000px;
+    
+    
 }
 
-#wrapper {
+#wrapper  {
     
 }
 
@@ -18,9 +20,13 @@ body {
 
 }
 
+.section-wrap {
+    justify-content: space-evenly;
+}
 
 input {
     display: flex;
+    width: 200px;
     background: rgb(116, 161, 210);
     border: solid 1px white;
     line-height: 20px;
@@ -51,7 +57,7 @@ select {
     justify-content: space-evenly;
     background: rgb(116, 161, 210);
     border: solid 1px white;
-    width: 150px;
+    width: 200px;
     margin: 5px 5px;
     color: white;
     outline: none;
